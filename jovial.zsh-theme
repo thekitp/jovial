@@ -202,7 +202,7 @@ precmd_functions+=git_action_prompt_hook
 
 
 local JOVIAL_PROMPT_PREVIOUS='`get_pin_exit_code`'
-local JOVIAL_PROMPT_HEAD='╭─$(get_host_name) %{$FG[239]%}as $(get_user_name) %{$FG[239]%}in $(current_dir) $(dev_env_segment)$(git_prompt_info)  '
+local JOVIAL_PROMPT_HEAD='╭─$(get_host_name) %{$FG[239]%}as $(get_user_name) %{$FG[239]%}in $(current_dir) $(git_prompt_info)  '
 local JOVIAL_PROMPT_FOOT='╰─$(type_tip_pointer) $(venv_info_prompt) '
 local JOVIAL_PROMPT_HEAD_RIGHT_TIME='$(align_right " `get_date_time`")'
 
