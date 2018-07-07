@@ -64,7 +64,7 @@ preference_zsh() {
 
 install_theme() {
     local ZTHEME="jovial"
-    local theme_path="github.com/zthxxx/${ZTHEME}/raw/master/${ZTHEME}.zsh-theme"
+    local theme_path="github.com/thekitp/${ZTHEME}/raw/master/${ZTHEME}.zsh-theme"
     local theme_file="${ZSH_CUSTOM:-"${HOME}/.oh-my-zsh/custom"}/${ZTHEME}.zsh-theme"
     curl -sSL "$theme_path" -o "$theme_file"
     sed "-i" "s/^ZSH_THEME=.*/ZSH_THEME=\"${ZTHEME}\"/g" ~/.zshrc
